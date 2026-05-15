@@ -1,9 +1,5 @@
 {
   "buildCommand": "npm run build",
   "outputDirectory": ".next",
-  "env": {
-    "NEXT_PUBLIC_AIRTABLE_BASE_ID": "@next_public_airtable_base_id",
-    "NEXT_PUBLIC_AIRTABLE_TABLE_NAME": "@next_public_airtable_table_name",
-    "AIRTABLE_PAT": "@airtable_pat"
-  }
+  "installCommand": "npm install"
 }
